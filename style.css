@@ -1,0 +1,79 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, dodgerblue, white);
+}
+
+main {
+    background-color: navy;
+    margin: 20px;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+    padding: 25px;
+    color: dodgerblue
+
+}
+
+h2 {
+    color: red;
+}
+
+/* Controls and Message Styles */
+.controls {
+    padding: 20px;
+    border: 3px solid dodgerblue;
+}
+
+.message-container {
+    color: dodgerblue;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.5em;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: greenyellow;
+}
+
+#flip,
+#roll {
+    background: linear-gradient(to bottom left, lightblue, white);
+}
+
+#flip:hover,
+#roll:hover {
+    background: linear-gradient(to bottom left, red, lightblue);
+}
+
+#clear {
+    background: linear-gradient(to bottom left, dodgerblue, white);
+}
+
+#clear:hover {
+    background: linear-gradient(to bottom left, red, dodgerblue);
+}
+
+/* Scoreboard Styles */
+table, 
+th, 
+td {
+    border: 1px solid red;
+    margin: 0 auto;
+    color: red;
+}
+
+td {
+    padding: 5px;
+    font-weight: bold;
+}
